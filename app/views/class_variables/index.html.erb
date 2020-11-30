@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Class Variables</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Orders number</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @class_variables.each do |class_variable| %>
+      <tr>
+        <td><%= class_variable.orders_number %></td>
+        <td><%= link_to 'Show', class_variable %></td>
+        <td><%= link_to 'Edit', edit_class_variable_path(class_variable) %></td>
+        <td><%= link_to 'Destroy', class_variable, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Class Variable', new_class_variable_path %>

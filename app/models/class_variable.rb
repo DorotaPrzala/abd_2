@@ -1,0 +1,2 @@
+class ClassVariable < ApplicationRecord
+end

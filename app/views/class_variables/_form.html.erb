@@ -1,0 +1,22 @@
+<%= form_with(model: class_variable, local: true) do |form| %>
+  <% if class_variable.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(class_variable.errors.count, "error") %> prohibited this class_variable from being saved:</h2>
+
+      <ul>
+      <% class_variable.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :orders_number %>
+    <%= form.number_field :orders_number %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

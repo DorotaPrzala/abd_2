@@ -164,3 +164,573 @@ Processing by VolonteersController#index as HTML
 Completed 200 OK in 723ms (Views: 643.2ms | ActiveRecord: 0.4ms)
 
 
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (3.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+Migrating to AddMoreColumnsToModel (20201202150046)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+Migrating to AddMoreColumnsToModel (20201202150046)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+Migrating to AddMoreColumnsToModel (20201202150046)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (2.1ms)[0m  [1m[35mALTER TABLE "courier" ADD "surname" character varying[0m
+  ↳ db/migrate/20201202150046_add_more_columns_to_model.rb:3
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+Migrating to AddMoreColumnsToModel (20201202150046)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (6.7ms)[0m  [1m[35mALTER TABLE "couriers" ADD "surname" character varying[0m
+  ↳ db/migrate/20201202150046_add_more_columns_to_model.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "couriers" ADD "adress" character varying[0m
+  ↳ db/migrate/20201202150046_add_more_columns_to_model.rb:4
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "couriers" ADD "email" character varying[0m
+  ↳ db/migrate/20201202150046_add_more_columns_to_model.rb:5
+  [1m[35m (0.8ms)[0m  [1m[35mALTER TABLE "couriers" ADD "hiring_date" date[0m
+  ↳ db/migrate/20201202150046_add_more_columns_to_model.rb:6
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "couriers" ADD "working_hours" character varying[0m
+  ↳ db/migrate/20201202150046_add_more_columns_to_model.rb:7
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "couriers" ADD "password" character varying[0m
+  ↳ db/migrate/20201202150046_add_more_columns_to_model.rb:8
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "couriers" ADD "number_of_hours_worked_in_month" integer[0m
+  ↳ db/migrate/20201202150046_add_more_columns_to_model.rb:9
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "couriers" ADD "login" character varying[0m
+  ↳ db/migrate/20201202150046_add_more_columns_to_model.rb:10
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "couriers" ADD "phone" character varying[0m
+  ↳ db/migrate/20201202150046_add_more_columns_to_model.rb:11
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "couriers" ADD "contract_type" character varying[0m
+  ↳ db/migrate/20201202150046_add_more_columns_to_model.rb:12
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "couriers" ADD "hour_pay" float[0m
+  ↳ db/migrate/20201202150046_add_more_columns_to_model.rb:13
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "couriers" ADD "company" character varying[0m
+  ↳ db/migrate/20201202150046_add_more_columns_to_model.rb:14
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "couriers" ADD "car_type" character varying[0m
+  ↳ db/migrate/20201202150046_add_more_columns_to_model.rb:15
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20201202150046"]]
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (2.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (3.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+Migrating to AddMoreColumnsToOfiiceWorker (20201202151250)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.2ms)[0m  [1m[35mALTER TABLE "employees" ADD "surname" character varying[0m
+  ↳ db/migrate/20201202151250_add_more_columns_to_ofiice_worker.rb:3
+  [1m[35m (1.1ms)[0m  [1m[35mALTER TABLE "employees" ADD "adress" character varying[0m
+  ↳ db/migrate/20201202151250_add_more_columns_to_ofiice_worker.rb:4
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "employees" ADD "email" character varying[0m
+  ↳ db/migrate/20201202151250_add_more_columns_to_ofiice_worker.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "employees" ADD "hiring_date" date[0m
+  ↳ db/migrate/20201202151250_add_more_columns_to_ofiice_worker.rb:6
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "employees" ADD "working_hours" character varying[0m
+  ↳ db/migrate/20201202151250_add_more_columns_to_ofiice_worker.rb:7
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "employees" ADD "password" character varying[0m
+  ↳ db/migrate/20201202151250_add_more_columns_to_ofiice_worker.rb:8
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "employees" ADD "number_of_hours_worked_in_month" integer[0m
+  ↳ db/migrate/20201202151250_add_more_columns_to_ofiice_worker.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "employees" ADD "login" character varying[0m
+  ↳ db/migrate/20201202151250_add_more_columns_to_ofiice_worker.rb:10
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "employees" ADD "phone" character varying[0m
+  ↳ db/migrate/20201202151250_add_more_columns_to_ofiice_worker.rb:11
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "employees" ADD "contract_type" character varying[0m
+  ↳ db/migrate/20201202151250_add_more_columns_to_ofiice_worker.rb:12
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "employees" ADD "hour_pay" float[0m
+  ↳ db/migrate/20201202151250_add_more_columns_to_ofiice_worker.rb:13
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "employees" ADD "personal_id" character varying[0m
+  ↳ db/migrate/20201202151250_add_more_columns_to_ofiice_worker.rb:14
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "employees" ADD "number_of_used_vacation_days" integer[0m
+  ↳ db/migrate/20201202151250_add_more_columns_to_ofiice_worker.rb:15
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "employees" ADD "room_number" integer[0m
+  ↳ db/migrate/20201202151250_add_more_columns_to_ofiice_worker.rb:16
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "employees" ADD "owned_devices" character varying[0m
+  ↳ db/migrate/20201202151250_add_more_columns_to_ofiice_worker.rb:17
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20201202151250"]]
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (2.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+Migrating to AddColumnToVolonteers (20201202151755)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+Migrating to AddColumnToVolonteers (20201202151755)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.3ms)[0m  [1m[35mALTER TABLE "volonteers" ADD "surname" character varying[0m
+  ↳ db/migrate/20201202151755_add_column_to_volonteers.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "volonteers" ADD "adress" character varying[0m
+  ↳ db/migrate/20201202151755_add_column_to_volonteers.rb:4
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "volonteers" ADD "email" character varying[0m
+  ↳ db/migrate/20201202151755_add_column_to_volonteers.rb:5
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "volonteers" ADD "hiring_date" date[0m
+  ↳ db/migrate/20201202151755_add_column_to_volonteers.rb:6
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "volonteers" ADD "working_hours" character varying[0m
+  ↳ db/migrate/20201202151755_add_column_to_volonteers.rb:7
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "volonteers" ADD "password" character varying[0m
+  ↳ db/migrate/20201202151755_add_column_to_volonteers.rb:8
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "volonteers" ADD "number_of_hours_worked_in_month" integer[0m
+  ↳ db/migrate/20201202151755_add_column_to_volonteers.rb:9
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "volonteers" ADD "login" character varying[0m
+  ↳ db/migrate/20201202151755_add_column_to_volonteers.rb:10
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "volonteers" ADD "phone" character varying[0m
+  ↳ db/migrate/20201202151755_add_column_to_volonteers.rb:11
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "volonteers" ADD "contract_type" character varying[0m
+  ↳ db/migrate/20201202151755_add_column_to_volonteers.rb:12
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "volonteers" ADD "hour_pay" float[0m
+  ↳ db/migrate/20201202151755_add_column_to_volonteers.rb:13
+  [1m[35m (1.2ms)[0m  [1m[35mALTER TABLE "volonteers" ADD "personal_id" character varying[0m
+  ↳ db/migrate/20201202151755_add_column_to_volonteers.rb:14
+  [1m[35m (1.7ms)[0m  [1m[35mALTER TABLE "volonteers" ADD "is_adult" boolean[0m
+  ↳ db/migrate/20201202151755_add_column_to_volonteers.rb:15
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "volonteers" ADD "parent_agreement" bytea[0m
+  ↳ db/migrate/20201202151755_add_column_to_volonteers.rb:16
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20201202151755"]]
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (1.7ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+Migrating to AddColumnsToOrder (20201202152301)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "oders" ADD "order_date" date[0m
+  ↳ db/migrate/20201202152301_add_columns_to_order.rb:3
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+Migrating to AddColumnsToOrder (20201202152301)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.4ms)[0m  [1m[35mALTER TABLE "orders" ADD "order_date" date[0m
+  ↳ db/migrate/20201202152301_add_columns_to_order.rb:3
+  [1m[35m (1.1ms)[0m  [1m[35mALTER TABLE "orders" ADD "delivery_date" date[0m
+  ↳ db/migrate/20201202152301_add_columns_to_order.rb:4
+  [1m[35m (19.0ms)[0m  [1m[35mALTER TABLE "orders" ADD "status" character varying[0m
+  ↳ db/migrate/20201202152301_add_columns_to_order.rb:5
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "orders" ADD "comment" character varying[0m
+  ↳ db/migrate/20201202152301_add_columns_to_order.rb:6
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20201202152301"]]
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (1.7ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+Migrating to AddColumnsToProduct (20201202152710)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+Migrating to AddColumnsToProduct (20201202152710)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.3ms)[0m  [1m[35mALTER TABLE "products" ADD "producent" character varying[0m
+  ↳ db/migrate/20201202152710_add_columns_to_product.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "products" ADD "price" float[0m
+  ↳ db/migrate/20201202152710_add_columns_to_product.rb:4
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "products" ADD "description" character varying[0m
+  ↳ db/migrate/20201202152710_add_columns_to_product.rb:5
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20201202152710"]]
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (1.7ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+Migrating to AddColumnsToProductToOrders (20201202153101)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.5ms)[0m  [1m[35mALTER TABLE "product_to_orders" ADD "quantity" integer[0m
+  ↳ db/migrate/20201202153101_add_columns_to_product_to_orders.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20201202153101"]]
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (1.7ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+Migrating to AddForeignKeys (20201202153306)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.7ms)[0m  [1m[35mALTER TABLE "orders" ADD CONSTRAINT "fk_rails_4608430842"
+FOREIGN KEY ("employee_id")
+  REFERENCES "employees" ("id")
+[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:3
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+Migrating to AddForeignKeys (20201202153306)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.4ms)[0m  [1m[35mALTER TABLE "orders" ADD "employees_id" bigint[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:3
+  [1m[35m (10.7ms)[0m  [1m[35mCREATE  INDEX  "index_orders_on_employees_id" ON "orders"  ("employees_id")[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:3
+  [1m[35m (3.2ms)[0m  [1m[35mALTER TABLE "orders" ADD CONSTRAINT "fk_rails_4608430842"
+FOREIGN KEY ("employee_id")
+  REFERENCES "employees" ("id")
+[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:4
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+Migrating to AddForeignKeys (20201202153306)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.4ms)[0m  [1m[35mALTER TABLE "orders" ADD "employees_id" bigint[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:3
+  [1m[35m (8.2ms)[0m  [1m[35mCREATE  INDEX  "index_orders_on_employees_id" ON "orders"  ("employees_id")[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "orders" ADD "couriers_id" bigint[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:4
+  [1m[35m (5.1ms)[0m  [1m[35mCREATE  INDEX  "index_orders_on_couriers_id" ON "orders"  ("couriers_id")[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:4
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "orders" ADD "volonteers_id" bigint[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:5
+  [1m[35m (5.1ms)[0m  [1m[35mCREATE  INDEX  "index_orders_on_volonteers_id" ON "orders"  ("volonteers_id")[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:5
+  [1m[35m (7.8ms)[0m  [1m[35mALTER TABLE "product_in_orders" ADD "orders_id" bigint[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:6
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+Migrating to AddForeignKeys (20201202153306)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.3ms)[0m  [1m[35mALTER TABLE "orders" ADD "employees_id" bigint[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:3
+  [1m[35m (8.9ms)[0m  [1m[35mCREATE  INDEX  "index_orders_on_employees_id" ON "orders"  ("employees_id")[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "orders" ADD "couriers_id" bigint[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:4
+  [1m[35m (5.8ms)[0m  [1m[35mCREATE  INDEX  "index_orders_on_couriers_id" ON "orders"  ("couriers_id")[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:4
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "orders" ADD "volonteers_id" bigint[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:5
+  [1m[35m (5.7ms)[0m  [1m[35mCREATE  INDEX  "index_orders_on_volonteers_id" ON "orders"  ("volonteers_id")[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:5
+  [1m[35m (7.2ms)[0m  [1m[35mALTER TABLE "product_in_orders" ADD "orders_id" bigint[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:6
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+Migrating to AddForeignKeys (20201202153306)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.6ms)[0m  [1m[35mALTER TABLE "orders" ADD "employees_id" bigint[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:3
+  [1m[35m (8.8ms)[0m  [1m[35mCREATE  INDEX  "index_orders_on_employees_id" ON "orders"  ("employees_id")[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "orders" ADD "couriers_id" bigint[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:4
+  [1m[35m (5.3ms)[0m  [1m[35mCREATE  INDEX  "index_orders_on_couriers_id" ON "orders"  ("couriers_id")[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:4
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "orders" ADD "volonteers_id" bigint[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:5
+  [1m[35m (5.2ms)[0m  [1m[35mCREATE  INDEX  "index_orders_on_volonteers_id" ON "orders"  ("volonteers_id")[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:5
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "product_to_orders" ADD "orders_id" bigint[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:6
+  [1m[35m (5.4ms)[0m  [1m[35mCREATE  INDEX  "index_product_to_orders_on_orders_id" ON "product_to_orders"  ("orders_id")[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:6
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "product_to_orders" ADD "products_id" bigint[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:7
+  [1m[35m (5.6ms)[0m  [1m[35mCREATE  INDEX  "index_product_to_orders_on_products_id" ON "product_to_orders"  ("products_id")[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:7
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20201202153306"]]
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (1.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+Migrating to ForeignKeyToModel (20201202154751)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.8ms)[0m  [1m[35mALTER TABLE "orders" ADD CONSTRAINT "fk_rails_4608430842"
+FOREIGN KEY ("employee_id")
+  REFERENCES "employees" ("id")
+[0m
+  ↳ db/migrate/20201202154751_foreign_key_to_model.rb:3
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+Migrating to ForeignKeyToModel (20201202154751)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+Migrating to ForeignKeyToModel (20201202154751)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+Migrating to ForeignKeyToModel (20201202154751)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "orders" ADD CONSTRAINT "fk_rails_4608430842"
+FOREIGN KEY ("employee_id")
+  REFERENCES "employees" ("id")
+ ON DELETE CASCADE[0m
+  ↳ db/migrate/20201202154751_foreign_key_to_model.rb:3
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+Migrating to ForeignKeyToModel (20201202154751)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "orders" ADD CONSTRAINT "fk_rails_4608430842"
+FOREIGN KEY ("employee_id")
+  REFERENCES "employees" ("id")
+ ON DELETE CASCADE[0m
+  ↳ db/migrate/20201202154751_foreign_key_to_model.rb:3
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+Migrating to AddForeignKeys (20201202153306)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (5.7ms)[0m  [1m[35mALTER TABLE "product_to_orders" DROP COLUMN "products_id"[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "product_to_orders" DROP COLUMN "orders_id"[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "orders" DROP COLUMN "volonteers_id"[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "orders" DROP COLUMN "couriers_id"[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "orders" DROP COLUMN "employees_id"[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.4ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = $1[0m  [["version", "20201202153306"]]
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (12.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+Migrating to AddForeignKeys (20201202153306)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.2ms)[0m  [1m[35mALTER TABLE "orders" ADD "employees_id" bigint[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:3
+  [1m[35m (7.9ms)[0m  [1m[35mCREATE  INDEX  "index_orders_on_employees_id" ON "orders"  ("employees_id")[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:3
+  [1m[35m (20.1ms)[0m  [1m[35mALTER TABLE "orders" ADD CONSTRAINT "fk_rails_eba212deda"
+FOREIGN KEY ("employees_id")
+  REFERENCES "employees" ("id")
+[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:3
+  [1m[35m (0.8ms)[0m  [1m[35mALTER TABLE "orders" ADD "couriers_id" bigint[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:4
+  [1m[35m (6.3ms)[0m  [1m[35mCREATE  INDEX  "index_orders_on_couriers_id" ON "orders"  ("couriers_id")[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:4
+  [1m[35m (4.8ms)[0m  [1m[35mALTER TABLE "orders" ADD CONSTRAINT "fk_rails_88ae734a5b"
+FOREIGN KEY ("couriers_id")
+  REFERENCES "couriers" ("id")
+[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:4
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "orders" ADD "volonteers_id" bigint[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:5
+  [1m[35m (5.4ms)[0m  [1m[35mCREATE  INDEX  "index_orders_on_volonteers_id" ON "orders"  ("volonteers_id")[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:5
+  [1m[35m (5.3ms)[0m  [1m[35mALTER TABLE "orders" ADD CONSTRAINT "fk_rails_433131e83e"
+FOREIGN KEY ("volonteers_id")
+  REFERENCES "volonteers" ("id")
+[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:5
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "product_to_orders" ADD "orders_id" bigint[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:6
+  [1m[35m (5.6ms)[0m  [1m[35mCREATE  INDEX  "index_product_to_orders_on_orders_id" ON "product_to_orders"  ("orders_id")[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:6
+  [1m[35m (4.4ms)[0m  [1m[35mALTER TABLE "product_to_orders" ADD CONSTRAINT "fk_rails_2c3d307ab7"
+FOREIGN KEY ("orders_id")
+  REFERENCES "orders" ("id")
+[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:6
+  [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "product_to_orders" ADD "products_id" bigint[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:7
+  [1m[35m (5.1ms)[0m  [1m[35mCREATE  INDEX  "index_product_to_orders_on_products_id" ON "product_to_orders"  ("products_id")[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:7
+  [1m[35m (4.3ms)[0m  [1m[35mALTER TABLE "product_to_orders" ADD CONSTRAINT "fk_rails_48a9ec026d"
+FOREIGN KEY ("products_id")
+  REFERENCES "products" ("id")
+[0m
+  ↳ db/migrate/20201202153306_add_foreign_keys.rb:7
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20201202153306"]]
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (1.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(114600966616517955)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23

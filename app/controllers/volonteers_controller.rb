@@ -69,6 +69,6 @@ class VolonteersController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def volonteer_params
-      params.require(:volonteer).permit(:name)
+      params.require(:volonteer).permit(:name,:surname,:login,:password)
     end
 end

@@ -1,2 +1,2 @@
-json.extract! employee, :id, :name, :created_at, :updated_at
+json.extract! employee, :id, :name,:surname,:login,:password :created_at, :updated_at
 json.url employee_url(employee, format: :json)

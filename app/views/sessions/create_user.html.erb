@@ -1,0 +1,30 @@
+<h1> Create new user</h1>
+ <%= form_tag '/create_user' do %>
+        <%= label_tag :name%>
+        <%= text_field_tag :name %>
+        <%= label_tag :surname%>
+        <%= text_field_tag :surname %>
+        <%= label_tag :email%>
+        <%= text_field_tag :email %>
+        <%= label_tag :adress%>
+        <%= text_field_tag :adress %>
+        <%= label_tag :number%>
+        <%= text_field_tag :number %>
+        <%= label_tag :login%>
+        <%= text_field_tag :login %>
+        <br/><br/>
+        User type:
+        <select id="typ_uzytkownika" name="typ_uzytkownika">
+                <option value="PB">Pracownik_biurowy</option>
+                <option value="W">Wolontariusz</option>
+                <option value="D">Dostawca</option>
+        </select>
+        <br/>
+        <%= label_tag :password%>
+        <%= password_field_tag :password%>
+        <%= label_tag :confirm_password%>
+        <%= password_field_tag :confirm_password%>
+        </br>
+        </br>
+        <%= submit_tag "create_user"%>
+ <%end%>

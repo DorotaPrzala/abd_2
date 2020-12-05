@@ -1,41 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6fcbaec8-2ffd-4550-be21-2bb016df84fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/views/products/create_order.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/products/order_complited.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/couriers_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/couriers_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/employees_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/employees_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/volonteers_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/volonteers_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/orders_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/orders_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/products_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/products_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/couriers/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/couriers/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/employees/_employee.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/employees/_employee.json.jbuilder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/employees/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/employees/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/employees/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/employees/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/volonteers/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/volonteers/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/products/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/products/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/sessions/welcome.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/sessions/welcome.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/development.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/61/61DYE6KWkT0kZHOqhoDyZVE-tFnswqDzUluEf04Z9qI.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/61/61DYE6KWkT0kZHOqhoDyZVE-tFnswqDzUluEf04Z9qI.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/99/99m8UCKl4j8IpsVOK8ltLHyNh8Ae0nHw3GBkC34V_co.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/99/99m8UCKl4j8IpsVOK8ltLHyNh8Ae0nHw3GBkC34V_co.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/B4/B43LeT9Wba4fLvXw-C_kKq-x9HwYZxnBBiltbIufzzQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/B4/B43LeT9Wba4fLvXw-C_kKq-x9HwYZxnBBiltbIufzzQ.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/HC/HCDOUd7-S45aJ_PjVAC_Vmjyud3i1aQv4cE3t9_Z3Dw.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/HC/HCDOUd7-S45aJ_PjVAC_Vmjyud3i1aQv4cE3t9_Z3Dw.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Rk/RkQLRXSz5LhJQnH7BT-ZDkVK0Rx8N9KhcVwR2A1HY4M.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Rk/RkQLRXSz5LhJQnH7BT-ZDkVK0Rx8N9KhcVwR2A1HY4M.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/YX/YX15t7NTRP8vCV9_9JgIcKPs-AYf1fh1S5OyAgE5tak.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/YX/YX15t7NTRP8vCV9_9JgIcKPs-AYf1fh1S5OyAgE5tak.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/vc/vcgiILg1wO98x-a4kX678ASAFWA1cL0iVx07VkHLPqA.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/vc/vcgiILg1wO98x-a4kX678ASAFWA1cL0iVx07VkHLPqA.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-load-path-cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-load-path-cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/db/base/13395/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/13395/pg_internal.init" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16402" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16402" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16404" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16404" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16411" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16411" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16413" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16413" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16415" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16415" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16422" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16422" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16424" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16424" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16426" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16426" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16433" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16433" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16435" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16435" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16437" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16437" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16444" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16444" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16446" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16446" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16448" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16448" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16452" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16452" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16462" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16462" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16464" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16464" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16468" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16468" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16485" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16485" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16491" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16491" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16497" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16497" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16503" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16503" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16509" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16509" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/2224" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/2224" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/pg_internal.init" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/db/global/pg_control" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/global/pg_control" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/db/global/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/global/pg_internal.init" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/db/pg_stat/db_0.stat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/db/pg_stat/db_13395.stat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/db/pg_stat/db_16384.stat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/db/pg_stat/global.stat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/pg_stat_tmp/db_0.stat" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/pg_stat_tmp/db_0.stat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/pg_stat_tmp/db_13395.stat" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/pg_stat_tmp/db_13395.stat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/pg_stat_tmp/db_16384.stat" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/pg_stat_tmp/db_16384.stat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/pg_stat_tmp/global.stat" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/pg_stat_tmp/global.stat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/db/pg_wal/000000010000000000000001" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/pg_wal/000000010000000000000001" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/db/pg_xact/0000" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/pg_xact/0000" afterDir="false" />
     </list>
@@ -57,7 +80,16 @@
     <property name="DatabaseDriversLRU" value="mysql&#10;postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/products" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rabar\OneDrive\Documents\studia\semestr 7\abd\schronisko\app\views\products" />
+      <recent name="C:\Users\rabar\OneDrive\Documents\studia\semestr 7\abd\schronisko\app\views\sessions" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rabar\OneDrive\Documents\studia\semestr 7\abd\schronisko\app\views\sessions" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -67,17 +99,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607088897753</updated>
-      <workItem from="1607088898825" duration="7639000" />
+      <workItem from="1607088898825" duration="19559000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="2975" y="306" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607092420676">
+    <state x="2153" y="218" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607160180665">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2975" y="306" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607092420676" />
+    <state x="2153" y="218" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607160180665" />
+    <state x="2607" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607155264015">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2607" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607155264015" />
   </component>
 </project>

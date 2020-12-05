@@ -17,4 +17,7 @@ Rails.application.routes.draw do
    get 'create_user', to: 'sessions#create_user'
    post 'create_user', to: 'sessions#create_user_confirm'
    get 'welcome', to: 'sessions#welcome'
+   get 'create_order', to: 'products#create_order'
+   post 'create_order_check', to: 'products#create_order_check'
+   get 'order_completed', to: 'products#order_complited'
 end

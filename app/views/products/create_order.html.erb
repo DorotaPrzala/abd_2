@@ -1,0 +1,41 @@
+
+
+<html><head>
+ <style>
+        ul, li {
+        list-style:none;
+        padding:0;
+        margin:0;
+    }
+    .listWrapper {
+        max-height:100px;
+        overflow-y:auto;
+    }
+  </style>
+</head>
+ <%= form_tag '/create_order_check' do %>
+  <h1> wybierz produkty oraz ilosc</h1>
+  <%=session[:user_type]%>
+            <div class="listWrapper">
+            <ul id = "lista_prod" name="lista_prod">
+                    <% @products.each do |product| %>
+                    <li>
+                        <%= check_box_tag "product_ids[]", product.id %>
+                        <label><%=product.name%> cena: <%=product.price%></label>
+                        <%= number_field_tag "quantities[]", multiple: true, default: 0 %>
+                    </li>
+                    <% end %>
+            </ul>
+            </div>
+</br>
+  <h1> Wybierz dostawce:</h1>
+              <select id="dostawca" name="dostawca">
+                  <% @couriers.each do |courier| %>
+                    <option value="<%=courier.id%>"><%=courier.company%>; <%=courier.name%>; <%=courier.surname%> </option>
+                   <% end %>
+              </select></br>
+
+   <label for="komentarz">Komentarz do zamowienia:</label>
+<textarea id="komentarz" name="komentarz" rows="4" cols="50"> </textarea></br>
+  <%= submit_tag "make an order"%>
+ <%end%>

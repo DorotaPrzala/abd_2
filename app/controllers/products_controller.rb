@@ -5,6 +5,7 @@ class ProductsController < ApplicationController
   # GET /products.json
   def index
     @products = Product.all
+
   end
 
   # GET /products/1
@@ -15,10 +16,52 @@ class ProductsController < ApplicationController
   # GET /products/new
   def new
     @product = Product.new
+
   end
 
   # GET /products/1/edit
   def edit
+  end
+
+  def create_order
+
+    @products = Product.all
+    @couriers = Courier.all
+  end
+
+   def create_order_check
+    @quantity_list=params[:quantities]
+    produkty=[]
+    price_list = []
+    value=0
+    @products_id = params[:product_ids]
+    @products_id.each do |id|
+        @product = Product.find_by(id: id)
+        value+=@product.price
+    end
+    @quantity_list=@quantity_list.reject(&:empty?)
+    if session[:user_type] == "W"
+        @order = Order.create(value: value, status: 'created', comment: params[:komentarz], couriers_id: params[:dostawca], volonteers_id: session[:user_id])
+        index=0
+        @products_id.each do |id|
+            @prod_do_zam = ProductToOrder.create(quantity:@quantity_list[index], orders_id: @order.id, products_id: id)
+            index=index+1
+        end
+        return render action: :order_complited
+    end
+    if session[:user_type] == "PB"
+        @order = Order.create(value: value , status: 'created', comment: params[:komentarz], couriers_id: params[:dostawca], employees_id: session[:user_id])
+        index=0
+        @products_id.each do |id|
+            @prod_do_zam = ProductToOrder.create(quantity:@quantity_list[index], orders_id: @order.id, products_id: id)
+            index=index+1
+        end
+        return render action: :order_complited
+    end
+    return redirect_to '/welcome'
+  end
+
+  def order_complited
   end
 
   # POST /products
@@ -69,6 +112,6 @@ class ProductsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def product_params
-      params.require(:product).permit(:name)
+      params.require(:product).permit(:name, :price, :description, :producent)
     end
 end

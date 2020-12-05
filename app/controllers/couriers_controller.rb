@@ -69,6 +69,6 @@ class CouriersController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def courier_params
-      params.require(:courier).permit(:name,:surname,:login,:password)
+      params.require(:courier).permit(:name,:surname,:login,:password, :company)
     end
 end

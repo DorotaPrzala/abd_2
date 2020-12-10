@@ -29,7 +29,13 @@ opacity: 0.3;
 </style>
 
 </head>
+<body>
 <h1>Welcome in schronisko portal</h1>
-<div class="topright"><%= link_to "create order", "/create_order" %></div>
+<div class="topright"><%= link_to "create order", "/create_order" %>
+                      <%= link_to "list orders", controller: 'orders' %>
+                      <%= link_to "your profile", "/profile" %>
+</div>
 
-</div></body>
+<%=image_tag("unnamed.png", alt: "Example Image")%>
+
+</body>

@@ -1,0 +1,24 @@
+<html><head>
+
+  <style>
+      .container {
+          position: relative;
+      }.topright {
+           position: absolute;
+           top: 8px;
+           right: 16px;
+           font-size: 18px;
+       }img {
+            width: 100%;
+            height: auto;
+            opacity: 0.3;
+        }
+  </style>
+
+</head>
+<body>
+<h1>This page is not available for you because you are</h1> <%= @type %>
+<div class="topright"><%= link_to "back", "/welcome" %> </div>
+<%=image_tag("unnamed.png", alt: "Example Image")%>
+
+</body>

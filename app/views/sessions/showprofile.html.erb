@@ -1,0 +1,37 @@
+<br><head>
+
+  <style>
+      .container {
+          position: relative;
+      }.topright {
+           position: absolute;
+           top: 8px;
+           right: 16px;
+           font-size: 18px;
+       }img {
+            width: 100%;
+            height: auto;
+            opacity: 0.3;
+        }
+  </style>
+
+</head>
+<body>
+<h1>Profile of yours</h1>
+<div class="topright"><%= link_to "back", "/welcome" %> </div>
+Imię:
+<%= @person = Employee.find_by(id: session[:user_id])
+    @person.name %>
+</br>
+Nazwisko : <%= @person.surname %>
+</br>
+email : <%= @person.email %>
+</br>
+adres : <%= @person.adress %>
+</br>
+login : <%= @person.login %>
+
+</br>
+<%=image_tag("unnamed.png", alt: "Example Image")%>
+
+</body>

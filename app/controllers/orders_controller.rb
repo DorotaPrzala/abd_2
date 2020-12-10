@@ -10,6 +10,24 @@ class OrdersController < ApplicationController
   # GET /orders/1
   # GET /orders/1.json
   def show
+    if session[:user_type] == "W"
+      @type = "WOLONTARIUSZ"
+    else if session[:user_type] == "D"
+           @type = "DOSTAWCA"
+         else if session[:user_type] == "PB"
+                @type = "PRACOWNIK BIURA"
+              end
+         end
+    end
+    @prod = []
+    items = ProductToOrder.where(orders_id: @order&.id)
+    @number = items.length()
+    items.each do |i|
+      p = Product.find_by(id: i.products_id)
+      product = {"name" => p.name, "price" => p.price, "quantity" => i.quantity }
+      @prod.push(product)
+    end
+    
   end
 
   # GET /orders/new

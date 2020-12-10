@@ -20,28 +20,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fcbaec8-2ffd-4550-be21-2bb016df84fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/products/create_order.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/products/order_complited.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/unnamed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/sessions/access_restricted.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/sessions/showprofile.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/couriers_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/couriers_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/employees_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/employees_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/orders_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/orders_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/products_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/products_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/couriers/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/couriers/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/products/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/products/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/orders/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/orders/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/orders/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/orders/show.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/sessions/welcome.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/sessions/welcome.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/development.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/61/61DYE6KWkT0kZHOqhoDyZVE-tFnswqDzUluEf04Z9qI.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/61/61DYE6KWkT0kZHOqhoDyZVE-tFnswqDzUluEf04Z9qI.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/99/99m8UCKl4j8IpsVOK8ltLHyNh8Ae0nHw3GBkC34V_co.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/99/99m8UCKl4j8IpsVOK8ltLHyNh8Ae0nHw3GBkC34V_co.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/B4/B43LeT9Wba4fLvXw-C_kKq-x9HwYZxnBBiltbIufzzQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/B4/B43LeT9Wba4fLvXw-C_kKq-x9HwYZxnBBiltbIufzzQ.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/HC/HCDOUd7-S45aJ_PjVAC_Vmjyud3i1aQv4cE3t9_Z3Dw.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/HC/HCDOUd7-S45aJ_PjVAC_Vmjyud3i1aQv4cE3t9_Z3Dw.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Rk/RkQLRXSz5LhJQnH7BT-ZDkVK0Rx8N9KhcVwR2A1HY4M.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Rk/RkQLRXSz5LhJQnH7BT-ZDkVK0Rx8N9KhcVwR2A1HY4M.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/YX/YX15t7NTRP8vCV9_9JgIcKPs-AYf1fh1S5OyAgE5tak.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/YX/YX15t7NTRP8vCV9_9JgIcKPs-AYf1fh1S5OyAgE5tak.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/vc/vcgiILg1wO98x-a4kX678ASAFWA1cL0iVx07VkHLPqA.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/vc/vcgiILg1wO98x-a4kX678ASAFWA1cL0iVx07VkHLPqA.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/5a/0775f6329a0d26" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/5a/0775f6329a0d26" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/7c/9b5a0a4267b422" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/7c/9b5a0a4267b422" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/98/3151b60d08e8f9" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/98/3151b60d08e8f9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/c8/b2b712c80741aa" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/c8/b2b712c80741aa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/cb/ae09aa9eedcbe4" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/cb/ae09aa9eedcbe4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/e2/e17e068395e36c" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/e2/e17e068395e36c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-load-path-cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-load-path-cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/base/13395/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/13395/pg_internal.init" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16402" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16402" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16404" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16404" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16411" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16411" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16413" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16413" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16415" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16415" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16422" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16422" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16424" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16424" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16426" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16426" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16433" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16433" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16435" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16435" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16437" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16437" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16444" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16444" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16446" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16446" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16448" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16448" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16452" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16452" afterDir="false" />
@@ -53,19 +69,30 @@
       <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16497" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16497" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16503" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16503" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/16509" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/16509" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/2224" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/2224" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/base/16384/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/base/16384/pg_internal.init" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/db/global/pg_control" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/global/pg_control" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/db/pg_stat_tmp/db_0.stat" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/pg_stat_tmp/db_0.stat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/db/pg_stat_tmp/db_13395.stat" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/pg_stat_tmp/db_13395.stat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/db/pg_stat_tmp/db_16384.stat" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/pg_stat_tmp/db_16384.stat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/db/pg_stat_tmp/global.stat" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/pg_stat_tmp/global.stat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/global/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/global/pg_internal.init" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/pg_stat_tmp/db_0.stat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/pg_stat_tmp/db_13395.stat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/pg_stat_tmp/db_16384.stat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/pg_stat_tmp/global.stat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/db/pg_wal/000000010000000000000001" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/pg_wal/000000010000000000000001" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/db/pg_xact/0000" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/pg_xact/0000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/postmaster.opts" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/db/postmaster.opts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/db/postmaster.pid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/pids/server.pid" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="ERB File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -83,11 +110,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/products" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\rabar\OneDrive\Documents\studia\semestr 7\abd\schronisko\app\views\products" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Desktop\semestr7\ABD\RUBY\schronisko\app\assets\images" />
+      <recent name="C:\Users\Lenovo\Desktop\semestr7\ABD\RUBY\schronisko\public" />
       <recent name="C:\Users\rabar\OneDrive\Documents\studia\semestr 7\abd\schronisko\app\views\sessions" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rabar\OneDrive\Documents\studia\semestr 7\abd\schronisko\app\views\products" />
       <recent name="C:\Users\rabar\OneDrive\Documents\studia\semestr 7\abd\schronisko\app\views\sessions" />
     </key>
   </component>
@@ -100,6 +129,10 @@
       <option name="presentableId" value="Default" />
       <updated>1607088897753</updated>
       <workItem from="1607088898825" duration="19559000" />
+      <workItem from="1607249139515" duration="5764000" />
+      <workItem from="1607442599174" duration="12475000" />
+      <workItem from="1607528327329" duration="8411000" />
+      <workItem from="1607602663772" duration="3010000" />
     </task>
     <servers />
   </component>
@@ -116,6 +149,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2153" y="218" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607160180665">
@@ -126,5 +160,13 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2607" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607155264015" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1607531039338">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1607531039338" />
+    <state x="513" y="166" width="672" height="273" key="search.everywhere.popup" timestamp="1607444328503">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="513" y="166" width="672" height="273" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1607444328503" />
   </component>
 </project>

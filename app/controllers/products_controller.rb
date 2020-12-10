@@ -27,6 +27,9 @@ class ProductsController < ApplicationController
 
     @products = Product.all
     @couriers = Courier.all
+    if session[:user_type] =="D"
+      redirect_to '/restricted'
+    end
   end
 
    def create_order_check
@@ -58,7 +61,7 @@ class ProductsController < ApplicationController
         end
         return render action: :order_complited
     end
-    return redirect_to '/welcome'
+    return redirect_to '/restricted'
   end
 
   def order_complited

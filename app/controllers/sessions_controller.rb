@@ -34,6 +34,24 @@ class SessionsController < ApplicationController
   def create_user
   end
 
+  def showprofile
+    if session[:user_type] != "PB"
+      return redirect_to '/restricted'
+    end
+  end
+
+  def access_restricted
+    if session[:user_type] == "W"
+      @type = "WOLONTARIUSZ"
+    else if session[:user_type] == "D"
+      @type = "DOSTAWCA"
+    else if session[:user_type] == "PB"
+           @type = "PRACOWNIK BIURA"
+           end
+    end
+    end
+    end
+
   def create_oder
    @products = Product.all
   end

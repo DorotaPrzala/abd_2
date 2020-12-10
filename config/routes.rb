@@ -20,4 +20,7 @@ Rails.application.routes.draw do
    get 'create_order', to: 'products#create_order'
    post 'create_order_check', to: 'products#create_order_check'
    get 'order_completed', to: 'products#order_complited'
+   get 'profile' , to: "sessions#showprofile"
+   get 'restricted', to: "sessions#access_restricted"
+   get 'order_details', to: "orders#detail"
 end

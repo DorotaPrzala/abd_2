@@ -1,9 +1,38 @@
 <p id="notice"><%= notice %></p>
-
+<strong>ORDER DETAILS <%= @type %> VIEW</strong>
 <p>
-  <strong>Value:</strong>
-  <%= @order.value %>
-</p>
+  <strong>Numer zamówienia:</strong><%= @order&.id %></br>
+  <strong>Status:</strong><%= @order&.status %></br>
+  <strong>Kwota zamówienia:</strong><%= @order&.value %></br>
+  <strong>Oczekiwana data dostawy:</strong><%= @order&.delivery_date %></br>
+  <strong>Dostawca:</strong><%= @courier = Courier.find_by(id: @order&.couriers_id)
+                                @courier.company %></br>
+  <strong>Dane kierowcy:</strong><%= @courier.name %><%= @courier.surname %></br>
+  <strong>Produkty:</strong>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Quantity</th>
+    </tr>
+    <tr>
+      <td> <%= @prod[0]["name"]%></td>
+      <td><%= @prod[0]["price"]%></td>
+      <td><%= @prod[0]["quantity"]%></td>
+    </tr>
+    <tr>
+      <td> <%= @prod[1]["name"]%></td>
+      <td><%= @prod[1]["price"]%></td>
+      <td><%= @prod[1]["quantity"]%></td>
+    </tr>
+  </table>
 
-<%= link_to 'Edit', edit_order_path(@order) %> |
-<%= link_to 'Back', orders_path %>
+  </br>
+  <strong>Komentarze:</strong><%= @order&.comment %></br>
+  <strong>Pracownik przypisany:</strong><%= @employee = Employee.find_by(id: @order&.employees_id)
+                                            @employee.name %></br>
+
+</p>
+<%# This is a great comment! %>
+<%#= link_to 'Edit', edit_order_path(@order) %>
+<%#= link_to 'Back', orders_path %>
